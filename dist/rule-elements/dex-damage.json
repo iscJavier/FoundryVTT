@@ -1,0 +1,15 @@
+{
+  "key": "FlatModifier",
+  "selector": "strike-damage",
+  "type": "ability",
+  "ability": "dex",
+  "predicate": [
+    "item:type:weapon",
+    {
+      "or": [
+        "item:trait:finesse",
+        "ranged"
+      ]
+    }
+  ]
+}

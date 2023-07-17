@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2021",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": false,
+    "types": [],
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "lib": [
+      "es2021",
+      "DOM"
+    ],
+    "rootDir": "./src",
+    "baseUrl": ".",
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
