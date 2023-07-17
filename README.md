@@ -1,6 +1,7 @@
 # Some macros and rule elements for [Pathfinder 2](https://github.com/foundryvtt/pf2e) on [FoundryVTT](https://foundryvtt.com/) .
 
-Simply copy-paste from `/dist`
+Tested on FoundryVTT 11-305 and pf2e 5.1.2
+Simply copy-paste from `/dist`.
 
 ## Rule Elements
 
