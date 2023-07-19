@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iscJavier/foundry-vtt-stuff"
+    "url": "https://github.com/iscJavier/FoundryVtt"
   },
   "author": "Javier Jacobo",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "codelyzer": "^6.0.2",
     "foundryvtt-types": "^0.0.5",
     "prettier": "^2.8.4",
+    "socket.io": "^4.7.1",
     "tslint": "^6.1.3",
     "typescript": "^4.9.5"
   }

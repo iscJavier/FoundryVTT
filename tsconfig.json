@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "es2021",
+    "target": "ESNext",
     "noImplicitAny": true,
     "outDir": "./dist",
     "sourceMap": false,
@@ -12,7 +12,7 @@
     "allowJs": false,
     "moduleResolution": "node",
     "lib": [
-      "es2021",
+      "ESNext",
       "DOM"
     ],
     "rootDir": "./src",

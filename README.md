@@ -26,3 +26,9 @@ Tells you how many infused shots remain on the `Alchemical Crossbow`.
 #### alchemical-crossbow-attack
 
 Attacks must be made with this macro to handle infused shots counter.
+
+### Chronoskimmer
+
+#### roll-chrono-initiative
+
+Prompts for [Chronoskimmer Dedication](https://2e.aonprd.com/Feats.aspx?ID=3847) option and rolls initiative accordingly
