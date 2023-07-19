@@ -55,7 +55,7 @@
     });
     selectedBomb.update({ 'data.quantity': selectedBomb.quantity - 1 });
     const content = `Infused Alchemical Crossbow with <strong>${selectedBomb.name}</strong>`;
-    ChatMessage.create({
+    await ChatMessage.create({
         user: game.user.id,
         speaker: ChatMessage.getSpeaker({ token, actor }),
         content,

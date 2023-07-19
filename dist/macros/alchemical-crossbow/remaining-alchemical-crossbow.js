@@ -21,7 +21,7 @@
     const content = infusedXbowShots
         ? `<strong>${infusedXbowShots} ${xbow.system.property1.damageType}</strong> infused shots remaining on Alchemical Crossbow.`
         : 'Alchemical Crossbow has <strong>no remaining</strong> infused shots';
-    ChatMessage.create({
+    await ChatMessage.create({
         user: game.user.id,
         speaker: ChatMessage.getSpeaker({ token, actor }),
         content,
