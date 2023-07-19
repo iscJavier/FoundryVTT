@@ -5,9 +5,9 @@ Simply copy-paste from `/dist`.
 
 ## Rule Elements
 
-#### dex-damage
+- #### dex-damage
 
-Adds DEX mod on damage rolls for `ranged` or `finesse` weapons.
+  Adds DEX mod on damage rolls for `ranged` or `finesse` weapons.
 
 ## Macros
 
@@ -15,20 +15,20 @@ Adds DEX mod on damage rolls for `ranged` or `finesse` weapons.
 
 These macros handle [Alchemical Crossbow](https://2e.aonprd.com/Weapons.aspx?ID=118)'s action to expend a `Lesser Alchemical Bomb` to enhance its damage.
 
-#### infuse-alchemical-crossbow
+- #### infuse-alchemical-crossbow
 
-Expend 1 `Lesser Alchemical Bomb` on inventory to add 1d6 of its damage type on the next 3 shots.
+  Expend 1 `Lesser Alchemical Bomb` on inventory to add 1d6 of its damage type on the next 3 shots.
 
-#### remaining-alchemical-crossbow
+- #### remaining-alchemical-crossbow
 
-Tells you how many infused shots remain on the `Alchemical Crossbow`.
+  Tells you how many infused shots remain on the `Alchemical Crossbow`.
 
-#### alchemical-crossbow-attack
+- #### alchemical-crossbow-attack
 
-Attacks must be made with this macro to handle infused shots counter.
+  Attacks must be made with this macro to handle infused shots counter.
 
 ### Chronoskimmer
 
-#### roll-chrono-initiative
+- #### roll-chrono-initiative
 
-Prompts for [Chronoskimmer Dedication](https://2e.aonprd.com/Feats.aspx?ID=3847) option and rolls initiative accordingly
+  Prompts for [Chronoskimmer Dedication](https://2e.aonprd.com/Feats.aspx?ID=3847) option and rolls initiative accordingly
