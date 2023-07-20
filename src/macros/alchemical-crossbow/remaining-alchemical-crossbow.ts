@@ -13,7 +13,7 @@
     return ui.notifications.error("You don't have an Alchemical Crossbow.");
   }
 
-  const infusedXbowShots = xbow.flags.pf2e.iscJavierAlchemicalCrossbow?.shots;
+  const infusedXbowShots = xbow.flags.iscJavierAlchemicalCrossbow?.shots;
   if (!infusedXbowShots) {
     xbow.update({
       'system.property1': { ...xbow.system.property1, damageType: '', dice: null, die: '', value: '' },

@@ -51,7 +51,7 @@
     const { damageType } = selectedBomb.system.damage;
     xbow.update({
         'system.property1': { ...xbow.system.property1, damageType, dice: 1, die: 'd6', value: 'Alchemical Crossbow Infusion' },
-        'flags.pf2e': { ...xbow.flags.pf2e, iscJavierAlchemicalCrossbow: { shots: 3 } },
+        'flags': { ...xbow.flags, iscJavierAlchemicalCrossbow: { shots: 3 } },
     });
     selectedBomb.update({ 'data.quantity': selectedBomb.quantity - 1 });
     const content = `Infused Alchemical Crossbow with <strong>${selectedBomb.name}</strong>`;

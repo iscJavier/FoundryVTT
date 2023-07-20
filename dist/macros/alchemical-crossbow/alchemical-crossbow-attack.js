@@ -35,7 +35,7 @@
             },
         }).render(true);
     });
-    const infusedXbowShots = xbow.flags.pf2e.iscJavierAlchemicalCrossbow?.shots;
+    const infusedXbowShots = xbow.flags.iscJavierAlchemicalCrossbow?.shots;
     if (!infusedXbowShots) {
         xbow.system.property1 = { ...xbow.system.property1, damageType: '', dice: null, die: '', value: '' };
     }
@@ -59,10 +59,8 @@
     if (rollResult) {
         let remainingShots = 0;
         if (infusedXbowShots) {
-            remainingShots = xbow.flags.pf2e.iscJavierAlchemicalCrossbow.shots - 1;
-            xbow.update({
-                'flags.pf2e': { ...xbow.flags.pf2e, iscJavierAlchemicalCrossbow: { shots: remainingShots } },
-            });
+            remainingShots = xbow.flags.iscJavierAlchemicalCrossbow.shots - 1;
+            xbow.update({ 'flags.iscJavierAlchemicalCrossbow': { shots: remainingShots } });
         }
         // not reseting xbow.system.property1 immediately to workaournd not being able to wait for damage roll
         const content = remainingShots

@@ -47,7 +47,7 @@ type Pf2eItem = {
   _source: {
     system: Pf2eItemSystem;
   };
-  flags: { pf2e: { iscJavierAlchemicalCrossbow?: { shots: number } } };
+  flags: { iscJavierAlchemicalCrossbow?: { shots: number } };
   type: string;
   traits: Set<string>;
   name: string;
